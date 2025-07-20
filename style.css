@@ -95,9 +95,8 @@ header{
     color: #d4a762;
 }
 .left-section-1 p{
-    font-size: 85px;
-    font-family: 'Alex Brush', cursive;
-    font-weight: 600;
+    font-size: 80px;
+    font-family: 'Playball', cursive !important;
 }
 .button-sec-1{
     padding: 7px 20px;
@@ -119,7 +118,7 @@ header{
 }
 }
 .button-sec-2{
-    border: #d4a762 1px solid;
+    border: #d4a762 1px;
     background-color: #d4a762;
     padding: 18px 45px;
     border-radius: 40px;
@@ -129,7 +128,7 @@ header{
     transition: 0.5s;
 }
 .button-sec-3{
-    border: #d4a762 1px solid;
+    border: #d4a762 1px;
     background-color: #d4a762;
     padding: 18px 45px;
     border-radius: 40px;
@@ -160,3 +159,77 @@ header{
 }
 }
 /* end section-1 */
+
+/* start secton-2 */
+.section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+    gap: 50px;
+    padding: 0 110px;
+}
+.left-section-2 img{
+    height: 500px;
+    border-radius: 8px;
+}
+.left-section-2{
+    animation: fromBottom 0.8s ease-out forwards;
+    animation-delay: 0s;
+}
+.right-section-2{
+    padding-top: 40px;
+    animation: fromBottom 0.8s ease-out forwards;
+    animation-delay: 0.8s;
+}
+.right-section-2 h4{
+    font-size: 50px;
+    font-family: 'Playball', cursive !important;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.right-section-2 p{
+    color: #9A9A9A;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.button-aboutus{
+    padding: 6px 20px;
+    border: #d4a762 1px solid;
+    background-color: #fffcf8;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.p-sec2{
+    display: flex;
+    gap: 150px;
+    color: black;
+}
+.p-sec2 p{
+    color: black;
+}
+.button-section-2{
+    padding: 17px 42px;
+    border-radius: 40px;
+    border: #d4a762 1px;
+    background-color: #d4a762;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button-section-2:hover{
+    background-color: black;
+    color: #d4a762;
+}
+@keyframes fromBottom {
+    0% {
+    opacity: 0;
+    transform: translateY(100vh);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+/* end section-2 */
