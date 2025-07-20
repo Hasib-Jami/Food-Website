@@ -82,6 +82,15 @@ header{
     gap: 180px;
     padding-top: 100px;
 }
+.left-section-1{
+    opacity:0;
+    transform:translateY(-100vh); 
+    animation: slideDown 1s ease forwards;
+}
+@keyframes slideDown{
+    to{
+        opacity:1; transform:translateY(0);}
+}
 .left-section-1 span{
     color: #d4a762;
 }
@@ -100,6 +109,14 @@ header{
 }
 .button-section-1{
     margin-top: 30px;
+    opacity:0;
+    transform:translateX(-100vw); 
+    animation: slideRight 1s ease forwards 0.7s;
+}
+@keyframes slideRight{
+    to{
+    opacity:1; transform:translateX(0);
+}
 }
 .button-sec-2{
     border: #d4a762 1px solid;
@@ -132,5 +149,14 @@ header{
 }
 .right-section-1 img{
     height: 500px;
+    opacity: 0;
+    transform: scale(0); 
+    animation: zoomIn 1s ease forwards 0.7s; 
+}
+@keyframes zoomIn {
+    to{
+    opacity: 1;
+    transform: scale(1); 
+}
 }
 /* end section-1 */
