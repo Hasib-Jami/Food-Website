@@ -233,3 +233,49 @@ header{
     }
 }
 /* end section-2 */
+
+/* start section-3 */
+.section-3{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 18px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.box{
+    width: 230px;
+    height: 230px;
+    background-color: #d4a762;
+    border-radius: 8px;
+}
+.icon-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.icon-name i{
+    font-size: 55px;
+}
+.icon-name h4{
+    font-size: 50px;
+    padding-top: 15px;
+    font-family: 'Playball', cursive !important;
+}
+.icon-name p{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.photo-sec-3 img{
+    height: 430px;
+    cursor: pointer;
+}
+/* end section-3 */
