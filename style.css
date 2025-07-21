@@ -152,7 +152,7 @@ header{
     transform: scale(0); 
     animation: zoomIn 1s ease forwards 0.7s; 
 }
-@keyframes zoomIn {
+@keyframes zoomIn{
     to{
     opacity: 1;
     transform: scale(1); 
@@ -222,7 +222,7 @@ header{
     background-color: black;
     color: #d4a762;
 }
-@keyframes fromBottom {
+@keyframes fromBottom{
     0% {
     opacity: 0;
     transform: translateY(100vh);
@@ -252,7 +252,7 @@ header{
     animation: up 0.8s forwards;
     animation-delay: 0.7s;
 }
-@keyframes up {
+@keyframes up{
     to{
     opacity:1;
     transform: translateY(0);
@@ -319,10 +319,10 @@ header{
     font-weight: normal;
     padding-top: 20px;
 }
-.boxes-2:nth-of-type(1) {
+.boxes-2:nth-of-type(1){
     animation-delay: 0.8s;
 }
-.boxes-2:nth-of-type(2) { 
+.boxes-2:nth-of-type(2){ 
     animation-delay: 1.6s; 
 }
 .boxes-2{
@@ -385,24 +385,24 @@ header{
     transition: top 1.1s ease;
     border-radius: 10px;
 }
-.box-2:hover::before {
+.box-2:hover::before{
     top: 0;
 }
 .box-2 > * {
     position: relative;
     z-index: 1;
 }
-.box-2:hover button {
+.box-2:hover button{
     background-color: #fff;
     color: black;
 }
-.box-2:hover i {
+.box-2:hover i{
     color: #000 !important;
 }
 .box-2:hover p{
     color: white;
 }
-@keyframes slideUp {
+@keyframes slideUp{
     to {
     opacity: 1;
     transform: translateY(0);
@@ -444,13 +444,13 @@ header{
     font-size: 17px;
     cursor: pointer;
 }
-.photo-sec5 {
+.photo-sec5{
     display: flex;
     justify-content: center;
     gap: 25px;
     margin-top: 60px;
 }
-.img-box {
+.img-box{
     position: relative;
     overflow: hidden;
     opacity: 0;
@@ -459,12 +459,12 @@ header{
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
 }
-.img-box img {
+.img-box img{
     width: 300px; 
     display: block;
     border-radius: 8px;
 }
-.overlay {
+.overlay{
     position: absolute;
     inset: 0; 
     background-color: rgba(212,167,98,0.6); #d4a762 ;
@@ -475,27 +475,27 @@ header{
     border-radius: 8px;
     transition: 0.5s ease;
 }
-.overlay i {
+.overlay i{
     color: black;
     font-size: 40px;
     cursor: pointer;
 }
-.img-box:hover .overlay {
+.img-box:hover .overlay{
     opacity: 1;
 }
-.img-box:nth-child(1) {
+.img-box:nth-child(1){
     animation-delay: 0.1s;
 }
-.img-box:nth-child(2) {
+.img-box:nth-child(2){
     animation-delay: 0.3s;
 }
-.img-box:nth-child(3) {
+.img-box:nth-child(3){
     animation-delay: 0.5s;
 }
-.img-box:nth-child(4) {
+.img-box:nth-child(4){
     animation-delay: 0.7s;
 }
-@keyframes slideUpFadeIn {
+@keyframes slideUpFadeIn{
     0% {
     transform: translateY(100vh);
     opacity: 0;

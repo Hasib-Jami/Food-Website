@@ -1,0 +1,5 @@
+@media (max-width: 768px){
+    .list-item, .button-header{
+        display: none;
+    }
+}
