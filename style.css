@@ -506,3 +506,82 @@ header{
 }
 }
 /* end section-5 */
+
+/* start section-6 */
+.section-6{
+    background-color: #fffcf8;
+    margin-top: 150px;
+}
+.header-sec-6{
+    text-align: center;
+    padding-top: 100px;
+}
+.header-sec-6 button{
+    padding: 6px 23px;
+    border: #d4a762 1px solid;
+    background-color: #fffcf8;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.header-sec-6 h4{
+    font-size: 48px;
+    font-family: 'Playball', cursive !important;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.buttons-2{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.buttons-2 button{
+    padding: 9px 42px;
+    border: #d4a762 1px solid;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.photos-sec-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.item-photo img{
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.item-photo{
+    display: flex;
+}
+.items{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.items p{
+    color: #9A9A9A;
+    width: 550px;
+    text-align: start;
+}
+.items h6{
+    color: #d4a762;
+    padding-right: 36px;
+    padding-top: 7px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price h4{
+    font-size: 22px;
+}
+.price h5{
+    color: #d4a762;
+    font-size: 22px;
+    display: flex;
+    padding-left: 400px;
+}
+/* end section-6 */
