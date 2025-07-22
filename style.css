@@ -606,3 +606,113 @@ header{
     padding-left: 400px;
 }
 /* end section-6 */
+
+/* start section-7 */
+.form-section {
+    margin: 200px 80px 0 80px;
+    background: url('./images/background-sec-7.jpg') center/cover no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.form-container {
+    background: #fffcf8;
+    border: 1px solid #d4a762;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 30px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100vh); 
+    animation: slideUp 1s ease-out forwards;
+}
+@keyframes slideUp {
+    0% {
+    opacity: 0;
+    transform: translateY(100vh);
+}
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+.book-btn {
+    background: transparent;
+    border: 1px solid #d4a762;
+    padding: 8px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.form-container h2 {
+    font-family: 'Playball', cursive !important;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 0.2s;
+}
+.form-container .row:nth-child(1) {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+.form-container .row:nth-child(2) {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 0.6s;
+}
+
+.form-container .row:nth-child(3) {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 0.8s;
+}
+
+.form-container .submit-btn {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 1s;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input, select {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid #d4a762;
+    font-size: 16px;
+}
+.submit-btn {
+    margin: 20px 400px 0 400px;
+    background: #d4a762;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit-btn:hover {
+    background: black;
+    color: #d4a762;
+}
+/* end section-7 */
