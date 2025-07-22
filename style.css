@@ -716,3 +716,27 @@ input, select {
     color: #d4a762;
 }
 /* end section-7 */
+
+/* start section-8 */
+.section-8{
+    margin-top: 150px;
+}
+.header-sec-8{
+    text-align: center;
+}
+.header-sec-8 button{
+    padding: 6px 25px;
+    font-weight: bold;
+    border: #d4a762 1px solid;
+    background-color: #fffcf8;
+    border-radius: 40px;
+}
+.header-sec-8 h4{
+    font-family: 'Playball', cursive !important;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+
+/* end section-8 */
