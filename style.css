@@ -881,3 +881,97 @@ input, select {
     100% { transform: translateX(-50%); }
 }
 /* end section-9 */
+
+/* start section-10 */
+.section-10{
+    margin-top: 200PX;
+}
+.header-section-10{
+    text-align: center;
+}
+.header-section-10 button{
+    padding: 7px 25px;
+    border: #d4a762 1px solid;
+    background-color: #fffcf8;
+    border-radius: 400px;
+    font-weight: bold;
+}
+.header-section-10 h4{
+    font-family: 'Playball', cursive !important;
+    font-size: 47px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.food-cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.food-card {
+    position: relative;
+    width: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slideUp 0.8s ease forwards;
+}
+.food-card:nth-child(1){animation-delay:0.1s;}
+.food-card:nth-child(2){animation-delay:0.3s;}
+.food-card:nth-child(3){animation-delay:0.5s;}
+@keyframes slideUp {
+    to{
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+.food-img {
+    position: relative;
+    overflow: hidden;
+}
+.food-img img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    display: block;
+}
+.food-card:hover img {
+    transform: scale(1.3);
+}
+.food-info {
+    position: relative;
+    margin-top: -40px; 
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
+.food-date {
+    background: #d4a762;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-shrink: 0;
+}
+.food-info p {
+    font-weight: 600;
+    color: #222;
+    font-size: 20px;
+    line-height: 1.4;
+}
+/* end section-10 */
