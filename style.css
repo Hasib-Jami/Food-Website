@@ -975,3 +975,111 @@ input, select {
     line-height: 1.4;
 }
 /* end section-10 */
+
+/* start footer */
+@media(max-width: 900px) {
+foo}
+    footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    padding: 3rem 5%;
+    background: #fffcf8;
+    color: #999;
+    margin-top: 200px;
+}
+footer h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #000;
+    }
+.footer-about h2 {
+    font-family: 'Playball', cursive !important;
+    font-size: 2.4rem;
+    margin: 0;
+    color: #d4a762;
+    display: inline-block;
+    }
+.footer-about h2 span {
+    font-family: 'Playball', cursive !important;
+    color: #000;
+    margin-left: .3rem;
+    font-weight: normal;
+    }
+.footer-about p {
+    line-height: 1.8;
+    margin-top: 1rem;
+    }
+.social-icons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    }
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: #d4a762;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    }
+.special-facilities ul,
+.contact-info ul {
+    list-style: none;
+    adding: 0;
+    margin: 0;
+    padding-top: 40px;
+    }
+.special-facilities li,
+.contact-info li {
+    margin: 0.6rem 0;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    }
+.special-facilities li i,
+.contact-info li i {
+    color: #d4a762;
+    font-size: 1rem;
+    }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 2.5rem;
+    }
+.gallery img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #d4a762;
+    }ter {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media(max-width: 600px) {
+footer {
+        grid-template-columns: 1fr;
+    }
+    }
+.end-footer{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-info-footer{
+    display: flex;
+    gap: 600px;
+}
+.end-info-footer span{
+    color: #d4a762;
+}
+/* end footer */
