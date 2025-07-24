@@ -14,6 +14,31 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Scrool Click */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #d4a762;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+    z-index: 1000;
+}
+.scroll-to-top i{
+    transition: 0.5s;
+}
+.scroll-to-top:hover {
+    background-color: black;
+    color: #d4a762 !important;
+}
+
 /* start header */
 header{
     background-color: #fffcf8;
@@ -977,44 +1002,47 @@ input, select {
 /* end section-10 */
 
 /* start footer */
-@media(max-width: 900px) {
-foo}
-    footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 4rem;
-    padding: 3rem 5%;
+footer {
+    width: 1350px; 
+    margin: 200px auto 0 auto; 
     background: #fffcf8;
     color: #999;
-    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+footer > div {
+    width: 250px;
 }
 footer h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     color: #000;
-    }
+}
 .footer-about h2 {
     font-family: 'Playball', cursive !important;
     font-size: 2.4rem;
     margin: 0;
     color: #d4a762;
     display: inline-block;
-    }
+}
 .footer-about h2 span {
     font-family: 'Playball', cursive !important;
     color: #000;
     margin-left: .3rem;
     font-weight: normal;
-    }
+}
 .footer-about p {
     line-height: 1.8;
     margin-top: 1rem;
-    }
+}
 .social-icons {
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
-    }
+}
 .social-icons a {
     width: 40px;
     height: 40px;
@@ -1027,14 +1055,14 @@ footer h3 {
     text-decoration: none;
     font-size: 1.2rem;
     transition: 0.3s;
-    }
+}
 .special-facilities ul,
 .contact-info ul {
     list-style: none;
-    adding: 0;
+    padding: 0;
     margin: 0;
     padding-top: 40px;
-    }
+}
 .special-facilities li,
 .contact-info li {
     margin: 0.6rem 0;
@@ -1042,31 +1070,24 @@ footer h3 {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    }
+}
 .special-facilities li i,
 .contact-info li i {
     color: #d4a762;
     font-size: 1rem;
-    }
+}
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 60px);
-    gap: 2.5rem;
-    }
+    grid-template-columns: repeat(3, 80px); 
+    gap: 1.5rem;
+}
 .gallery img {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #d4a762;
-    }ter {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media(max-width: 600px) {
-footer {
-        grid-template-columns: 1fr;
-    }
-    }
+}
 .end-footer{
     background-color: black;
     color: white;
