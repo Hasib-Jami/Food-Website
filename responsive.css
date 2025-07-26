@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
 .header {
     justify-content: flex-start !important;
     padding: 10px 20px !important;
@@ -24,4 +27,27 @@
 .mobile-menu ul li:hover{
     color: #d4a762;
 }
+
+.section-1 {
+    flex-direction: column;
+    padding: 0 50px;
+}
+    .left-section-1, 
+    .right-section-1 {
+        /* flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%; */
+    flex: 1 1 100%;
+    text-align: center; 
+}
+    .button-section-1 button{
+        min-width: 170px;
+    }
+    .right-section-1 img {
+    width: 100%;
+    height: auto;
+}
+    .left-section-1 p{
+        font-size: 50px;
+    }
 }
