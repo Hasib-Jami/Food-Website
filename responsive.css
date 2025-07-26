@@ -107,10 +107,38 @@ border-radius: 8px;
     gap: 20px;
     padding: 0 20px; 
 }
-
 .box-2 {
     width: 100%;
     max-width: 400px;
     text-align: center;
+}
+.section-5 .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 20px;
+}
+.header-sec-5 h4{
+    font-size: 35px;
+}
+.section-5 .buttons button {
+    width: 90%;
+}
+.section-5 .photo-sec5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+.section-5 .photo-sec5 .img-box {
+    width: 100%;
+    max-width: 480px; 
+}
+.section-5 .photo-sec5 .img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; 
 }
 }
