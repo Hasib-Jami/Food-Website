@@ -228,7 +228,12 @@ header {
 /* end section-1 */
 
 /* start secton-2 */
+.sec-2-2{
+    display: flex;
+    justify-content: center;
+}
 .section-2{
+    width: 1450px;
     display: flex;
     justify-content: center;
     margin-top: 230px;

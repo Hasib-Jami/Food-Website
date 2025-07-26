@@ -141,4 +141,84 @@ border-radius: 8px;
     display: block;
     border-radius: 8px; 
 }
+.section-6 {
+    padding: 0 30px;
+}
+.header-sec-6 h4{
+    font-size: 35px;
+}
+.buttons-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.buttons-2 button {
+    width: 100%;
+}
+.photos-sec-6 {
+    display: block;
+}
+.left-photos,
+.right-photos {
+    width: 100%;
+    display: block;
+}
+.item-photo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.item-photo img {
+    width: 120px;
+    height: auto;
+    margin-right: 15px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.items {
+    flex: 1;
+}
+.items .price h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.items .price h5 {
+    display: none;
+}
+.items h6 {
+    display: none;
+}
+.items p {
+    display: none;
+}
+.items .price {
+    justify-content: flex-start; 
+}
+.form-section {
+    padding: 0 15px; 
+}
+.form-container {
+    width: 100%;
+}
+.form-container h2{
+    font-size: 30px;
+}
+.form-container form .row {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+.form-container{
+    border-radius: 8px;
+}
+.form-container form .row input,
+.form-container form .row select {
+    width: 100%;     
+    box-sizing: border-box;
+}
+.submit-btn {
+    display: none;
+}
 }
