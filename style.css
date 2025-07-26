@@ -40,38 +40,36 @@ body {
 }
 
 /* start header */
-header{
+header {
     background-color: #fffcf8;
 }
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px;
     padding-top: 20px;
 }
-.header-logo img{
+.header-logo img {
     height: 70px;
-    display: flex;
-    justify-content: start;
     cursor: pointer;
 }
-.list-item ul{
+.list-item ul {
     display: flex;
     justify-content: center;
     gap: 30px;
     color: rgba(0, 0, 0, 0.466);
 }
-.list-item ul li{
+.list-item ul li {
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
 }
-.list-item ul li:hover{
+.list-item ul li:hover {
     color: #d4a762;
 }
-.header-button1{
+.header-button1 {
     padding: 11px 11px;
     border-radius: 50%;
     border: #d4a762 1px solid;
@@ -79,10 +77,10 @@ header{
     cursor: pointer;
     margin-right: 20px;
 }
-.header-button1 i{
+.header-button1 i {
     font-size: 18px;
 }
-.header-button2{
+.header-button2 {
     padding: 12px 26px;
     border-radius: 40px;
     border: #d4a762 1px;
@@ -92,9 +90,53 @@ header{
     cursor: pointer;
     transition: 0.5s;
 }
-.header-button2:hover{
+.header-button2:hover {
     background-color: black;
     color: #d4a762;
+}
+#menu-toggle {
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    z-index: 1000;
+    color: #d4a762 ;
+    border: #9A9A9A 1px solid;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fffcf8;
+    transition: max-height 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 70px; 
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.mobile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+}
+.mobile-menu ul li {
+    padding: 12px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-weight: 600;
+    cursor: pointer;
+}
+#menu-toggle:checked ~ .mobile-menu {
+    max-height: 500px;
 }
 /* end header */
 
@@ -1012,6 +1054,8 @@ footer {
     align-items: flex-start;
     padding: 3rem;
     box-sizing: border-box;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 0px;
 }
 footer > div {
     width: 250px;

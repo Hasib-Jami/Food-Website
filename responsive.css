@@ -1,5 +1,27 @@
-@media (max-width: 768px){
-    .list-item, .button-header{
-        display: none;
-    }
+@media (max-width: 768px) {
+.header {
+    justify-content: flex-start !important;
+    padding: 10px 20px !important;
+    position: relative;
+}
+.list-item,
+.button-header {
+    display: none !important;
+}
+.header-logo {
+    order: 1;
+}
+.hamburger {
+    display: block;
+}
+.mobile-menu ul{
+    color: #7d7a7a;
+    font-weight: normal;
+}
+.mobile-menu ul li{
+    transition: 0.3s;
+}
+.mobile-menu ul li:hover{
+    color: #d4a762;
+}
 }
