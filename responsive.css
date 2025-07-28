@@ -298,6 +298,246 @@ footer > div {
 }
 .end-footer {
     flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 1rem;
+}
+.end-info-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+}
+
+/* start responsive for size 992px */
+@media (max-width: 992px) and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+.header {
+    justify-content: flex-start !important;
+    padding: 10px 20px !important;
+    position: relative;
+}
+.list-item,
+.button-header {
+    display: none !important;
+}
+.header-logo {
+    order: 1;
+}
+.hamburger {
+    display: block;
+}
+.mobile-menu ul{
+    color: #7d7a7a;
+    font-weight: normal;
+}
+.mobile-menu ul li{
+    transition: 0.5s;
+}
+.mobile-menu ul li:hover{
+    color: #d4a762;
+}
+.section-1 {
+    flex-direction: column;
+    padding: 0 50px;
+}
+    .left-section-1, 
+    .right-section-1 {
+        /* flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%; */
+    flex: 1 1 100%;
+    text-align: center; 
+}
+    .button-section-1 button{
+        min-width: 170px;
+    }
+    .right-section-1 img {
+    width: 100%;
+    height: auto;
+}
+    .left-section-1 p{
+        font-size: 50px;
+    }
+    .section-2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 80px;
+}
+    .left-section-2,
+    .right-section-2 {
+    flex: 1 1 100%;
+    width: 100%;
+}
+    .right-section-2 h4{
+        font-size: 30px;
+    }
+    .left-section-2 img {
+    width: 100%;
+    height: auto;
+}
+    .p-sec2{
+    display: none;
+}
+.section-3 {
+    flex-direction: column; 
+    align-items: center;
+    padding: 0 40px;
+}
+.boxes {
+    width: 100%;
+    padding: 0 60px;
+}
+.box {
+    width: 100%;
+}
+.photo-sec-3 {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; 
+}
+.photo-sec-3 img {
+max-width: 100%;
+height: auto;
+display: block;
+border-radius: 8px;
+}
+.boxes-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 60px;
+}
+.box-2 {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+.header-sec-5 {
+    text-align: center;
+    padding: 0 20px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.buttons button {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+.photo-sec5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 40px;
+}
+.img-box {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    box-sizing: border-box;
+    position: relative;
+}
+.img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.img-box:hover .overlay {
+    opacity: 1;
+}
+.overlay i {
+    color: #fff;
+    font-size: 24px;
+}
+.buttons-2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    padding: 0 20px;
+    align-items: center;
+}
+.buttons-2 button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+.photos-sec-6 {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    padding: 0 20px;
+}
+.left-photos,
+.right-photos {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.submit-btn{
+    display: none;
+}
+.section-8{
+    padding: 0 10px;
+}
+footer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    margin-top: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+footer > div {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+.footer-about h2,
+.footer-about p {
+    text-align: center;
+}
+.social-icons {
+    justify-content: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+.gallery img {
+    width: 80px;
+    height: 80px;
+}
+.end-footer {
+    flex-direction: column;
+    text-align: center;
     height: auto;
     padding: 1rem;
 }
